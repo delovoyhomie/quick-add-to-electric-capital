@@ -2,6 +2,13 @@
 
 This tool is designed to merge repositories in [electric capital site](https://www.developerreport.com/ecosystems/ton) for tracking the number of full-time developers.
 
+## Requirements
+
+To work with this tool, you will need [Python 3.7](https://www.python.org/) or newer.
+
+## Errors and Support
+If you encounter any problems while using this tool, please create an Issue in this repository, describing the problem and the environment in which it occurred.
+
 ## Quick Start
 
 1) Place the links to the repositories you want to add in the DoraHacks `Repos.csv` file.

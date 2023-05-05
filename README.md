@@ -6,6 +6,8 @@ This tool is designed to merge repositories in [electric capital site](https://w
 
 To work with this tool, you will need [Python 3.7](https://www.python.org/) or newer.
 
+```git clone https://github.com/delovoyhomie/quick-add-to-electric-capital.git```
+
 ## Errors and Support
 If you encounter any problems while using this tool, please create an Issue in this repository, describing the problem and the environment in which it occurred.
 

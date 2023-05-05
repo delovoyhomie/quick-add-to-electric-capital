@@ -34,7 +34,7 @@ done_ls.sort()
 # write to final file with all repositories
 with open('C:/1. MY FILES/1. PROGRAMMING/3. TON/6. Others/electric-capital/done_list.txt', 'w') as result:
     for i in done_ls:
-        result.write('[[repo]] \n' + 'url = "' + i + '"' + '\n\n')
+        result.write('[[repo]]\n' + 'url = "' + i + '"' + '\n\n')
     
 
 

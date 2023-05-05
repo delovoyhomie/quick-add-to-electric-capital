@@ -1,5 +1,5 @@
 # repositories from https://github.com/electric-capital/crypto-ecosystems/blob/master/data/ecosystems/t/ton.toml
-with open('C:/1. MY FILES/1. PROGRAMMING/3. TON/6. Others/electric-capital/list.txt') as list1:
+with open('list.txt') as list1:
     list1 = list1.read()
     list1 = list1.replace('\n', '')
     list1 = list1.replace('[[repo]]', '')
@@ -8,8 +8,9 @@ with open('C:/1. MY FILES/1. PROGRAMMING/3. TON/6. Others/electric-capital/list.
     list1 = list1.split()
 
 # repositories you want to add 
-with open('C:/1. MY FILES/1. PROGRAMMING/3. TON/6. Others/electric-capital/DoraHacks Repos.csv') as t:
+with open('DoraHacks Repos.csv') as t:
     list2 = []
+    # paste in the argument the number of repositories you want to add (ex. 126)
     for i in range(126):
         list2.append(t.readline().replace('\n', ''))
 
@@ -35,9 +36,3 @@ done_ls.sort()
 with open('C:/1. MY FILES/1. PROGRAMMING/3. TON/6. Others/electric-capital/done_list.txt', 'w') as result:
     for i in done_ls:
         result.write('[[repo]]\n' + 'url = "' + i + '"' + '\n\n')
-    
-
-
-
-
-

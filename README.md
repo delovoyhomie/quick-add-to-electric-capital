@@ -25,4 +25,6 @@ You can change the filename on line 2 in the argument.
 
 5) Replace all repositories in the [electric capital rep](https://github.com/electric-capital/crypto-ecosystems/blob/master/data/ecosystems/t/ton.toml) file with the result from `done_list.txt`.
 
+ps will be updated 
+
 Done! 
